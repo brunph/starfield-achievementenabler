@@ -1,0 +1,8 @@
+[project]
+name = "starfield-achievementenabler"
+
+[target.starfield-achievementenabler]
+type = "shared"
+sources = ["src/**.cpp", "src/**.hpp", "src/**.def"]
+compile-features = ["cxx_std_20"]
+precompile-headers = ["src/CommonIncludes.hpp"]
